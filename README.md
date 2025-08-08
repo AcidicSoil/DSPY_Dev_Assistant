@@ -11,6 +11,7 @@ This codebase is a result of a collaborative design session, structuring various
 * **Self-Correction & Verification**: Includes a custom VerificationModule that fact-checks generated code against documentation and corrects it if necessary.
 * **Optimized with Compilation**: Uses DSPy's compilation (BootstrapFewShot) to learn from examples and improve its reliability, reducing hallucinations.
 
+```
 ## **Project Structure**
 
 dspy\_dev\_assistant/
@@ -26,6 +27,7 @@ dspy\_dev\_assistant/
 │
 └── data/
     └── trainset.py           \# Training examples for compilation
+```
 
 ## **How to Run**
 
